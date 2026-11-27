@@ -9,8 +9,14 @@ else:
 
 discount_amount = amount - discount
 
+gst = discount_amount * 5 /100
+
+final_amount = discount_amount + gst  
+
 print("----Discount calculate----")
 print("Amount", amount)
 print("Discount", discount)
 print("Amount after discount", discount_amount)
+print("gst_amount", gst)
+print("Total_bill", final_amount)
 
